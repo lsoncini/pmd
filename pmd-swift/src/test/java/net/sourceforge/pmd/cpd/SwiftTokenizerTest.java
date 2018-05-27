@@ -12,6 +12,7 @@ import org.junit.Test;
 
 import net.sourceforge.pmd.testframework.AbstractTokenizerTest;
 
+
 public class SwiftTokenizerTest extends AbstractTokenizerTest {
 
     private static final String FILENAME = "BTree.swift";

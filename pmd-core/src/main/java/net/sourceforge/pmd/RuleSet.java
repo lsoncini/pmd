@@ -58,11 +58,8 @@ public class RuleSet implements ChecksumAware {
     /**
      * Creates a new RuleSet with the given checksum.
      * 
-     * @param checksum
-     *            A checksum of the ruleset, should change only if the ruleset
-     *            was configured differently
-     * @param rules
-     *            The rules to be applied as part of this ruleset
+     * @param builder
+     *            A ruleset builder.
      */
     private RuleSet(final RuleSetBuilder builder) {
         checksum = builder.checksum;
